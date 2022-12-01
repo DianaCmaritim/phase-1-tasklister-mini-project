@@ -1,4 +1,4 @@
-html {
+/*html {
   height: 100%;
   width: 100%;
   font-family: "Titillium Web", sans-serif;
@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(198, 192, 255), rgb(130, 135, 238));
 }
 
 button {
@@ -34,4 +34,97 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#tasks > div > li > p {
+  margin-bottom: 1%;
+}
+
+/*
+DOES NOT WORK ON MY CHROME
+ol li::marker {
+  color:black !important;
+}
+*/
+
+/*#emergency > li > p {
+  color: red;
+}
+
+#high > li > p {
+  color: blue;
+}
+
+#medium > li > p {
+  color: green;
+}
+
+#low > li > p {
+  color: rgb(249, 16, 241);
+}*/
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background: linear-gradient(rgb(129, 10, 248), rgb(5, 187, 254));
+}
+
+button {
+  font-size: 7px;
+
+}
+
+#main-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+#list {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+#tasks > div > li > p {
+  margin-bottom: 1%;
+}
+
+/*
+DOES NOT WORK ON MY CHROME
+ol li::marker {
+  color:black !important;
+}
+*/
+
+#emergency > li > p {
+  color: red;
+}
+
+#high > li > p {
+  color: blue;
+}
+
+#medium > li > p {
+  color: green;
+}
+
+#low > li > p {
+  color: rgb(249, 16, 241);
 }
