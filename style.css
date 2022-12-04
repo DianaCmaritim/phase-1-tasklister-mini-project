@@ -41,27 +41,7 @@ button {
 }
 
 /*
-DOES NOT WORK ON MY CHROME
-ol li::marker {
-  color:black !important;
-}
-*/
 
-/*#emergency > li > p {
-  color: red;
-}
-
-#high > li > p {
-  color: blue;
-}
-
-#medium > li > p {
-  color: green;
-}
-
-#low > li > p {
-  color: rgb(249, 16, 241);
-}*/
 
 html {
   height: 100%;
