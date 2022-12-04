@@ -1,4 +1,4 @@
-/*html {
+html {
   height: 100%;
   width: 100%;
   font-family: "Titillium Web", sans-serif;
@@ -85,13 +85,8 @@ button {
 #tasks > div > li > p {
   margin-bottom: 1%;
 }
-
-/*
-DOES NOT WORK ON MY CHROME
-ol li::marker {
-  color:black !important;
-}
 */
+
 
 #emergency > li > p {
   color: red;
